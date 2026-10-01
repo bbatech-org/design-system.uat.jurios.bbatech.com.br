@@ -1,0 +1,14 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./jsx-runtime-DeHZSEgm.js";import{n,t as r}from"./dashboard-kpi-BxgsL7f0.js";var i,a,o,s,c;function l(){return(l=e((()=>{n(),i=t(),a={title:`Website/Blocos/DashboardKpi`,component:r,parameters:{docs:{description:{component:[`Indicador ilustrativo do mock de dashboard do site: marcador colorido, rótulo, valor e variação positiva em verde.`,``,`**Onde aparece:** topo do gráfico de receita na HighlightsSection (receita à esquerda, previsão à direita).`,``,'**Props de conteúdo:** `label`, `value`, `delta` (ex.: "↑ 2,4%"), `align` (`start` ou `end`) e `series` (`primary` ou `comparison`, cor do marcador).',``,`**Quando não usar:** dentro do produto. KPIs reais usam Card e Badge, como em Padrões/Dashboard.`].join(`
+`)}}},args:{label:`Receita`,value:`R$ 212.530,41`,delta:`↑ 2,4%`},argTypes:{label:{control:`text`,description:`Rótulo do indicador.`},value:{control:`text`,description:`Valor em destaque.`},delta:{control:`text`,description:`Variação positiva, em verde (ex.: "↑ 2,4%").`},align:{control:`inline-radio`,options:[`start`,`end`],description:`Alinhamento do bloco.`},series:{control:`inline-radio`,options:[`primary`,`comparison`],description:`Cor do marcador: série principal ou comparação.`},className:{table:{disable:!0}}},render:e=>(0,i.jsx)(`div`,{className:`rounded-surface bg-card p-6`,children:(0,i.jsx)(r,{...e})})},o={},s={parameters:{docs:{description:{story:`Série principal à esquerda e comparação alinhada à direita, como no gráfico da HighlightsSection.`}}},render:()=>(0,i.jsxs)(`div`,{className:`flex w-[624px] justify-between rounded-surface bg-card p-6`,children:[(0,i.jsx)(r,{label:`Receita`,value:`R$ 212.530,41`,delta:`↑ 2,4%`}),(0,i.jsx)(r,{label:`Previsão`,value:`R$ 400.453,19`,align:`end`,series:`comparison`})]})},c=[`Default`,`Alignments`],o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{}`,...o.parameters?.docs?.source}}},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    docs: {
+      description: {
+        story: "Série principal à esquerda e comparação alinhada à direita, como no gráfico da HighlightsSection."
+      }
+    }
+  },
+  render: () => <div className="flex w-[624px] justify-between rounded-surface bg-card p-6">
+      <DashboardKpi label="Receita" value="R$ 212.530,41" delta="↑ 2,4%" />
+      <DashboardKpi label="Previsão" value="R$ 400.453,19" align="end" series="comparison" />
+    </div>
+}`,...s.parameters?.docs?.source}}}})))()}l();export{s as Alignments,o as Default,c as __namedExportsOrder,a as default};

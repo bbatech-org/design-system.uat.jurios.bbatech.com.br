@@ -1,0 +1,18 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./jsx-runtime-DeHZSEgm.js";import{a as n,i as r,n as i,r as a,t as o}from"./accordion-w4w0BOz3.js";import{a as s,i as c,n as l,t as u}from"./container-BTHqApni.js";function d({eyebrow:e=`Perguntas`,title:t=`Perguntas frequentes`,items:n=p,...s}){return(0,f.jsx)(l,{"data-slot":`faq-section`,tone:`muted`,...s,children:(0,f.jsxs)(u,{className:`flex flex-col items-center gap-16`,children:[(0,f.jsx)(c,{eyebrow:e,title:t}),(0,f.jsx)(o,{type:`single`,collapsible:!0,className:`w-full max-w-[720px]`,children:n.map(e=>(0,f.jsxs)(a,{value:e.question,children:[(0,f.jsx)(r,{children:e.question}),(0,f.jsx)(i,{children:e.answer})]},e.question))})]})})}var f,p;function m(){return(m=e((()=>{n(),s(),f=t(),p=[{question:`Por que escolher o JuriOS?`,answer:`Porque processos, prazos, publicações e financeiro ficam no mesmo lugar, com a conferência feita por agentes de IA e revisada pela sua equipe.`},{question:`Quais módulos estão disponíveis hoje?`,answer:`Processos, Prazos e Financeiro, com Publicações, Documentos e Relatórios inclusos em todos os planos.`},{question:`Integra com o PJe e os tribunais?`,answer:`Sim. O JuriOS lê intimações do PJe, e-SAJ e Projudi e vincula cada publicação ao processo pelo número CNJ.`},{question:`Vocês oferecem plano anual com desconto?`,answer:`Sim. No plano anual você paga 10 meses e usa 12, sem fidelidade além do período contratado.`}];try{d.displayName=`FaqSection`,d.__docgenInfo={description:`Perguntas frequentes: cabeçalho central e accordion de itens brancos com raio 16.`,displayName:`FaqSection`,filePath:`/media/demax/development/clients/bbatech/jurios/jurios-design-system/src/website/sections/faq/faq.tsx`,methods:[],props:{eyebrow:{defaultValue:{value:`Perguntas`},declarations:[{fileName:`jurios-design-system/src/website/sections/faq/faq.tsx`,name:`FaqSectionProps`}],description:``,name:`eyebrow`,parent:{fileName:`jurios-design-system/src/website/sections/faq/faq.tsx`,name:`FaqSectionProps`},required:!1,tags:{},type:{name:`string`}},title:{defaultValue:{value:`Perguntas frequentes`},declarations:[{fileName:`jurios-design-system/src/website/sections/faq/faq.tsx`,name:`FaqSectionProps`}],description:``,name:`title`,parent:{fileName:`jurios-design-system/src/website/sections/faq/faq.tsx`,name:`FaqSectionProps`},required:!1,tags:{},type:{name:`ReactNode`}},items:{defaultValue:{value:`[
+  {
+    question: "Por que escolher o JuriOS?",
+    answer: "Porque processos, prazos, publicações e financeiro ficam no mesmo lugar, com a conferência feita por agentes de IA e revisada pela sua equipe.",
+  },
+  {
+    question: "Quais módulos estão disponíveis hoje?",
+    answer: "Processos, Prazos e Financeiro, com Publicações, Documentos e Relatórios inclusos em todos os planos.",
+  },
+  {
+    question: "Integra com o PJe e os tribunais?",
+    answer: "Sim. O JuriOS lê intimações do PJe, e-SAJ e Projudi e vincula cada publicação ao processo pelo número CNJ.",
+  },
+  {
+    question: "Vocês oferecem plano anual com desconto?",
+    answer: "Sim. No plano anual você paga 10 meses e usa 12, sem fidelidade além do período contratado.",
+  },
+]`},declarations:[{fileName:`jurios-design-system/src/website/sections/faq/faq.tsx`,name:`FaqSectionProps`}],description:``,name:`items`,parent:{fileName:`jurios-design-system/src/website/sections/faq/faq.tsx`,name:`FaqSectionProps`},required:!1,tags:{},type:{name:`FaqEntry[]`}}},tags:{}}}catch{}})))()}export{m as n,d as t};

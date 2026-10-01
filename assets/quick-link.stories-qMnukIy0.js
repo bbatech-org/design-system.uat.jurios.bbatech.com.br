@@ -1,0 +1,18 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./jsx-runtime-DeHZSEgm.js";import{t as n}from"./calendar-clock-D0j_PpHZ.js";import{t as r}from"./file-text-BIUmgn_r.js";import{t as i}from"./newspaper-C1OFec7f.js";import{t as a}from"./scale-BO0v2wOS.js";import{t as o}from"./wallet-fyXtX6Kd.js";import{n as s,r as c,t as l}from"./quick-link-BEA7X1Kw.js";import{r as u}from"./icons.stories-CuLmnsRb.js";var d,f,p,m,h,g;function _(){return(_=e((()=>{u(),c(),d=t(),f={Scale:(0,d.jsx)(a,{}),CalendarClock:(0,d.jsx)(n,{}),Newspaper:(0,d.jsx)(i,{}),FileText:(0,d.jsx)(r,{}),Wallet:(0,d.jsx)(o,{})},p={title:`Website/Blocos/QuickLink`,component:l,parameters:{docs:{description:{component:["Atalho para um módulo: ícone e rótulo em fundo `card`, com hover em `accent`.",``,`**Onde aparece:** grade de atalhos da ClientsShortcutsSection (Processos, Prazos, Publicações...).`,``,`**Anatomia**`,"- `QuickLinkGrid`: `<nav>` em grade com divisórias de 1px e contorno de raio 16. Duas colunas no mobile, três a partir de 640 e cinco a partir de 1024. Dê um `aria-label`.","- `QuickLink`: `<a>` com `icon` (Lucide, 18px), `children` (rótulo curto) e `href`.",``,"```tsx",`<QuickLinkGrid aria-label="Módulos do JuriOS">`,`  <QuickLink href="/processos" icon={<Scale />}>Processos</QuickLink>`,`  <QuickLink href="/prazos" icon={<CalendarClock />}>Prazos</QuickLink>`,`</QuickLinkGrid>`,"```",``,`Use quantidades que fechem as linhas (5 ou 10 itens) para não sobrar célula vazia no desktop.`].join(`
+`)}}},args:{icon:`Scale`,children:`Processos`,href:`#processos`},argTypes:{icon:{control:`select`,options:Object.keys(f),mapping:f,description:`Ícone Lucide do atalho.`},children:{control:`text`,description:`Rótulo curto do atalho.`},href:{control:`text`,description:`Destino do atalho.`},className:{table:{disable:!0}}},render:e=>(0,d.jsx)(`div`,{className:`w-60 overflow-hidden rounded-surface border border-border`,children:(0,d.jsx)(l,{...e})})},m={},h={parameters:{docs:{description:{story:`Grade completa com dez atalhos.`}},layout:`padded`},render:()=>(0,d.jsxs)(s,{"aria-label":`Módulos`,className:`w-full max-w-[1200px]`,children:[(0,d.jsx)(l,{href:`#processos`,icon:(0,d.jsx)(a,{}),children:`Processos`}),(0,d.jsx)(l,{href:`#prazos`,icon:(0,d.jsx)(n,{}),children:`Prazos`}),(0,d.jsx)(l,{href:`#publicacoes`,icon:(0,d.jsx)(i,{}),children:`Publicações`}),(0,d.jsx)(l,{href:`#documentos`,icon:(0,d.jsx)(r,{}),children:`Documentos`}),(0,d.jsx)(l,{href:`#financeiro`,icon:(0,d.jsx)(o,{}),children:`Financeiro`})]})},g=[`Default`,`Grid`],m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{}`,...m.parameters?.docs?.source}}},h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    docs: {
+      description: {
+        story: "Grade completa com dez atalhos."
+      }
+    },
+    layout: "padded"
+  },
+  render: () => <QuickLinkGrid aria-label="Módulos" className="w-full max-w-[1200px]">
+      <QuickLink href="#processos" icon={<Scale />}>Processos</QuickLink>
+      <QuickLink href="#prazos" icon={<CalendarClock />}>Prazos</QuickLink>
+      <QuickLink href="#publicacoes" icon={<Newspaper />}>Publicações</QuickLink>
+      <QuickLink href="#documentos" icon={<FileText />}>Documentos</QuickLink>
+      <QuickLink href="#financeiro" icon={<Wallet />}>Financeiro</QuickLink>
+    </QuickLinkGrid>
+}`,...h.parameters?.docs?.source}}}})))()}_();export{m as Default,h as Grid,g as __namedExportsOrder,p as default};

@@ -1,0 +1,14 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./jsx-runtime-DeHZSEgm.js";import{n,t as r}from"./module-card-BhyO-6nW.js";var i,a,o,s,c;function l(){return(l=e((()=>{n(),i=t(),a={title:`Website/Blocos/ModuleCard`,component:r,parameters:{layout:`padded`,docs:{description:{component:['Card de módulo em superfície `muted`: "JuriOS *Nome*" com o nome em Newsreader itálico, preço, ilustração e ActionLink.',``,`**Onde aparece:** grade da ModulesSection (Processos, Prazos, Financeiro).`,``,'**Props de conteúdo:** `name`, `price` (ex.: "A partir de R$ 149/mês"), `dailyPrice` (opcional, exibido como "ou R$ 5 por dia por usuário"), `image`, `imageAlt`, `actionLabel` (padrão "Explorar {name}") e `href`.',``,`O nome do módulo é um dos poucos lugares com ênfase Newsreader. Não acrescente outra ênfase no card.`].join(`
+`)}}},args:{name:`Processos`,price:`A partir de R$ 149/mês`,dailyPrice:`R$ 5 por dia`,image:`/img/1479142506502-19b3a3b7ff33.jpg`,href:`#processos`},argTypes:{name:{control:`text`,description:`Nome do módulo, em ênfase após "JuriOS".`},price:{control:`text`,description:`Preço mensal.`},dailyPrice:{control:`text`,description:`Preço diário em destaque.`},image:{control:`text`,description:`URL da foto.`},imageAlt:{control:`text`,description:`Texto alternativo da foto.`},actionLabel:{control:`text`,description:`Rótulo do link de ação.`},href:{control:`text`,description:`Destino do link de ação.`},className:{table:{disable:!0}}},render:e=>(0,i.jsx)(`div`,{className:`w-full max-w-[588px]`,children:(0,i.jsx)(r,{...e})})},o={},s={parameters:{docs:{description:{story:`Os três módulos lado a lado.`}}},render:()=>(0,i.jsxs)(`div`,{className:`grid w-full max-w-[1200px] gap-6 md:grid-cols-2`,children:[(0,i.jsx)(r,{name:`Prazos`,price:`A partir de R$ 99/mês`,dailyPrice:`R$ 3,30 por dia`,image:`/img/1454165804606-c3d57bc86b40.jpg`}),(0,i.jsx)(r,{name:`Financeiro`,price:`A partir de R$ 129/mês`,dailyPrice:`R$ 4,30 por dia`,image:`/img/1521791136064-7986c2920216.jpg`})]})},c=[`Default`,`Modules`],o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{}`,...o.parameters?.docs?.source}}},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  parameters: {
+    docs: {
+      description: {
+        story: "Os três módulos lado a lado."
+      }
+    }
+  },
+  render: () => <div className="grid w-full max-w-[1200px] gap-6 md:grid-cols-2">
+      <ModuleCard name="Prazos" price="A partir de R$ 99/mês" dailyPrice="R$ 3,30 por dia" image="/img/1454165804606-c3d57bc86b40.jpg" />
+      <ModuleCard name="Financeiro" price="A partir de R$ 129/mês" dailyPrice="R$ 4,30 por dia" image="/img/1521791136064-7986c2920216.jpg" />
+    </div>
+}`,...s.parameters?.docs?.source}}}})))()}l();export{o as Default,s as Modules,c as __namedExportsOrder,a as default};
